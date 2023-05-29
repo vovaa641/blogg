@@ -1,0 +1,1 @@
+<img src="https://avatars.mds.yandex.net/i?id=9bb9a20a5767caee43f9067d9e1318df909e9cfb-8566657-images-thumbs&n=13" alt="Logo" class="h-10">

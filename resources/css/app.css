@@ -1,0 +1,141 @@
+.bot {
+    background: #f06717;
+    color: aliceblue;
+    padding: 4px 15px;
+    border-radius: 5px;
+}
+
+.tr-popup {
+    display: none;
+}
+
+.teg {
+    font-size: 20px;
+}
+
+.blog-show {
+    position: relative;
+    padding-top: 50px;
+}
+
+
+@media (min-width: 1220px) {
+    .previous {
+        position: absolute;
+        font-size: 40px;
+        top: 0;
+    }
+
+    .car-blog {
+        top: 50px;
+        right: 10px;
+        position: absolute;
+        width: 300px;
+        background: #ffffff;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 2px 0px 10px #0000001c;
+    }
+
+    .car-blog h1 {
+        color: #000000;
+        font-weight: 600;
+        margin: 10px 5px;
+        margin-left: 10px;
+        border-radius: 5px;
+        padding: 5px;
+        background: hsl(0, 0%, 100%);
+        transition: all 0.3s;
+    }
+
+    .car-blog h1:hover {
+        transition: all 0.3s;
+        box-shadow: 2px 0px 10px #0000001f;
+        margin-left: 20px;
+        color: #f06717;
+        background: hsla(0, 0%, 100%, 0.26);
+    }
+
+    .car-blog h3 {
+        color: #ffffff;
+        font-weight: 600;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 5px;
+        background: #f06717;
+    }
+}
+
+@media (max-width: 1220px) {
+    .previous {
+        display: none;
+    }
+
+    .car-blog {
+        display: none;
+    }
+}
+
+.errors{
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px 50px;
+    background: #f0671763;
+}
+
+.errorss{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-errror .sss{
+    text-align: center;
+    color: #f06717;
+    text-shadow: 10px 10px 0px #fdad00,  18px 18px 0px #f72121;
+    font-size: 200px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.errorss h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: #f06717;
+    font-weight: bold;
+}
+
+.errorss p{
+    color: #03030386;
+    text-align: center;
+    font-weight: 600;
+    width: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.errorss a{
+    text-decoration: none;
+    background: #f06717;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #fbfbfb;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    transition:all .5s ;
+}
+
+.errorss a:hover{
+    transition:all .5s ;
+    text-decoration: none;
+    background: #ff5e01;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #fbfbfb;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
